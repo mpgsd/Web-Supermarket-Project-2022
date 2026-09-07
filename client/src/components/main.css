@@ -1,0 +1,173 @@
+
+  
+  h2{
+    color: #3D3A3A;
+  }
+/*  .body {
+    display: grid;
+    height: 60vh;
+    place-items: center;
+    margin: 0;
+    padding: 0 20px;
+    
+    font-family: "Euclid Circular A";
+  }*/
+  body{
+    margin: 0;
+    background: hsla(0, 0%, 100%, 0);
+    background-image:  url("shopping-cart-grocery-store-dairy-shopping-cart.jpg");
+    background-size: 20%;
+    background-repeat: no-repeat;
+    background-blend-mode: multiply;
+    background-position: 98% 190%;
+  }
+
+  .button,
+  .input {
+
+    padding: 15px 32 px;
+    text-align: center;
+    background: transparent;
+    font-family: inherit;
+    font-size: 16px;
+    border-color: black;
+    
+  }
+
+.Selection,
+.Account{
+    margin: 20; 
+    width: 200;
+    display: grid;
+    height: 60vh;
+    place-items: center;
+    padding: 0 20px;
+    
+}
+
+.History {
+  margin: 5; 
+  display: grid;
+  place-items: center;
+  padding: 0 20px;
+  
+}
+
+.Account input{
+  width: 20%;
+  box-sizing: border-box;
+  border: 2px solid #242323;
+  margin: 20px 0;
+  height: 40px;
+  
+}
+
+.Account button{
+  display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    padding: 0 24px;
+    border-radius: 6px;
+    background: #216ce7;
+    color: #f9f9f9;
+    border: 0;
+    font-family: inherit;
+    font-weight: 600;
+    border: 0;
+    width: 10%;
+    height: 30px;
+    
+    font-family: inherit;
+    font-size: 16px;
+    outline: none;
+}
+
+.offer input[type=number] {
+  display: grid;
+  box-sizing: border-box;
+  border: 2px solid #242323;
+  border-radius: 4px;
+}
+
+.offer button {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+    padding: 0 50px;
+    margin: auto;
+    margin-top: 50px;
+    width:100%;
+    border-radius: 12px;
+    background: #216ce7;
+    color: #f9f9f9;
+    border: 0;
+    font-family: inherit;
+    font-size: 130%;
+    font-weight: 600;
+}
+
+.anazitiseis button,
+.upload button,
+.selectionadmin button {
+  display: flex;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+    padding: 16px;
+    margin: auto;
+    margin-top: 50px;
+    width:inherit;
+    border-radius: 12px;
+    background: #216ce7;
+    color: #f9f9f9;
+    border: 0;
+    font-family: inherit;
+    font-size: 16px;
+}
+
+.anazitiseis,
+.selectionadmin {
+  margin: 20; 
+  width: 200;
+  display: grid;
+  place-items: center;
+  padding: 0 20px;
+  
+}
+.leaflet-popup-content {
+	margin: 13px 120px 13px 20px;
+	line-height: 1.3;
+	font-size: 13px;
+	font-size: 1.08333em;
+	min-height: 1px;
+	}
+
+  .Evaluation table{
+    border-collapse: collapse;
+    width: 85%;
+    margin-left: 180px;
+  }
+  
+  .Evaluation th, td {
+    text-align: left;
+    padding: 8px;
+  }
+  
+  .Evaluation tr:nth-child(even){background-color: #f2f2f2}
+  
+  .Evaluation th {
+    background-color: #9886af;
+    color: white;
+  }
+
+  .Evaluation{
+    margin-left: 180px;
+  }
+  .upload{
+    margin-top: 2rem;
+    margin: 80 10px; 
+    float: 'right';
+    width: '50%';
+  }

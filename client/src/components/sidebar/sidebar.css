@@ -1,0 +1,114 @@
+* {
+    box-sizing: border-box;
+    color: #050505;
+  }
+  
+  .body {
+    margin: 0;
+    background: #121212;
+  }
+  
+  .button {
+    background: transparent;
+    border: 0;
+    padding: 0;
+    cursor: pointer;
+  }
+  
+  .sidebar {
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    width: 260px;
+    height: 125%;
+    background: #6d10db;
+    transition: width 0.4s;
+    background-image:  url("../cart3.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-blend-mode: multiply;
+    background-position: 50% 80%;
+    
+  }
+
+  .sidebar::before {
+    content: "Tomorrow isn't promised buy everything today";
+    position: absolute;
+    top: 62%;
+    left: 19%;
+    color: #070707;
+    font-size: 150%;
+    font-family: 'Brush Script MT', cursive;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+  }
+
+  body.open .sidebar {
+    width: 260px;
+  }
+  
+  .sidebar-inner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 300px;
+  }
+  
+  .sidebar-header {
+    display: flex;
+    align-items: center;
+    height: 72px;
+    padding: 0 1.25rem 0 0;
+    background: rgba(0, 0, 0, 0.1);
+  }
+  
+  .sidebar-burger {
+    width: 720px;
+    height: 72px;
+    display: grid;
+    place-items: center;
+    
+  }
+  
+  body.open .sidebar-burger {
+    background: no-repeat no-repeat center center;
+  }
+  
+  .sidebar-logo {
+    height: 20px;
+  }
+  
+  .sidebar-menu {
+    display: grid;
+  }
+  
+  .sidebar-menu > button {
+    display: flex;
+    gap: 25px;
+    align-items: center;
+    height: 60px;
+    font-family: "Poppins";
+    font-size: 16px;
+    font-weight: 200;
+    letter-spacing: 2px;
+    line-height: 1;
+    padding: 10 25px;
+    background: transparent;
+    border: 0;
+    cursor: pointer;
+  }
+  
+  .sidebar-menu > button.has-border {
+    padding-bottom: 1rem;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+    margin-bottom: 1rem;
+  }
+  
+  .sidebar-menu > button > img {
+    width: 24px;
+    height: 24px;
+  }
+  
+  .sidebar-menu > button > span {
+    color: #f9f9f9;
+  }
